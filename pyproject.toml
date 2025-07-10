@@ -1,0 +1,10 @@
+[project]
+name = "view-waymo-tfrecord"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "opencv-python>=4.8.1.78",
+    "waymo-open-dataset-tf-2-12-0==1.6.7",
+]
