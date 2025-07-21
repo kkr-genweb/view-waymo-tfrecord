@@ -2,6 +2,8 @@
 
 A minimal viewer for Waymo TFRecord files that extracts camera frames and LIDAR data to create video outputs.
 
+The tfrecord data format is described here: https://www.tensorflow.org/datasets/catalog/waymo_open_dataset
+
 ## Description
 
 This tool processes Waymo Open Dataset TFRecord files and creates MP4 video outputs. It uses TensorFlow and the Waymo Open Dataset libraries to parse the TFRecord format and OpenCV to handle image processing and video creation.
